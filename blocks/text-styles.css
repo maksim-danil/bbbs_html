@@ -9,6 +9,13 @@
     color: #464646;
 }
 
+@media screen and (max-width: 768px) {
+    .podpis {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+
 .content-title {
     margin: 0;
     font-family: Proto Grotesk Web Light;
@@ -17,6 +24,13 @@
     font-size: 23px;
     line-height: 30px;
     color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+    .content-title {
+        font-size: 19px;
+        line-height: 23px;
+    }
 }
 
 .number {
@@ -31,4 +45,11 @@
     text-align: right;
     letter-spacing: -2px;
     color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+    .number {
+        font-size: 60px;
+        line-height: 60px;
+    }
 }
