@@ -1,0 +1,44 @@
+.film-frame {
+    position: relative;
+    background-image: url(./../images/film-frame-image.png);
+    background-size: cover;
+    max-width: 420px;
+    min-height: 236px;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px 30px 0 0;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+    .film-frame {
+        max-width: 290px;
+        min-height: 163px;
+    }
+}
+
+.film-frame__content {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    list-style: none;
+    margin: 0;
+    padding: 0 0 10px;
+}
+
+.film-frame__tag {
+    padding: 2px 7px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.film-frame__point {
+    align-self: center;
+    max-width: 62px;
+    width: 100%;
+    border-radius: 15px;
+}

@@ -1,0 +1,19 @@
+.theme_green {
+    background: #8CDD94;
+}
+
+.theme_white {
+    background: #FFFFFF;
+}
+
+.theme_white_one-third-alpha {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.theme_white_two-thirds-alpha {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.theme_light_blue {
+    background: #C8D1FF;
+}

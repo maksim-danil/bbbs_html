@@ -1,0 +1,76 @@
+.description-of-where-to-go {
+    position: relative;
+    max-width: 420px;
+    min-height: 192px;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;    
+    padding-top: 30px;
+    border: 1px solid red;
+}
+
+@media screen and (max-width: 768px) {
+    .description-of-where-to-go {
+        max-width: 290px;
+        min-height: 158px;
+    }
+}
+
+.description-of-where-to-go__article {
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start; */
+    max-width: 360px;
+    width: 100%;
+    overflow-y: scroll;
+    text-overflow: ellipsis;
+    white-space: normal;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .description-of-where-to-go__article {
+        max-width: 260px;
+    }
+}
+
+.description-of-where-to-go__article::-webkit-scrollbar {
+    max-width: 5px;
+    height: 30px;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+    .description-of-where-to-go__article::-webkit-scrollbar {
+        max-width: 3px;
+    }
+}
+
+.description-of-where-to-go__article::-webkit-scrollbar-thumb {
+    background: #E8E6E6;
+    border-radius: 5px;
+}
+
+.description-of-where-to-go__about {
+    max-height: 19px;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .description-of-where-to-go__about {
+        max-height: 17px;
+    }
+}
+
+.description-of-where-to-go__content {
+    padding-top: 10px;
+    max-height: 133px;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .description-of-where-to-go__content {
+        padding-top: 5px;
+        max-height: 110px;
+    }
+}

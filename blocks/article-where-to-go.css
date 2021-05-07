@@ -1,0 +1,73 @@
+.article-where-to-go {
+    position: relative;
+    max-width: 420px;
+    min-height: 224px;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    border: 1px solid red;
+}  
+
+@media screen and (max-width: 768px) {
+    .article-where-to-go {
+        max-width: 290px;
+        min-height: 176px;
+    }
+}
+
+.article-where-to-go__content {    
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding-top: 17px;
+}
+
+.article-where-to-go__mentor {
+    max-width: 130px;
+    width: 100%;
+    border-radius: 15px;
+    text-decoration: none;
+    align-self: center;
+}
+
+.article-where-to-go__title {
+    max-width: 360px;
+    width: 100%;
+    padding-top: 5px;
+    align-self: center;
+}
+
+@media screen and (max-width: 768px) {
+    .article-where-to-go__title {
+        max-width: 260px;
+    }
+}
+
+.article-where-to-go__author {
+    max-width: 360px;
+    width: 100%;
+    padding-top: 5px;
+    align-self: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .article-where-to-go__author {
+        max-width: 260px;
+    }
+}
+
+.article-where-to-go__about {
+    max-width: 117px;
+    width: 100%;
+    padding-top: 39px;
+    text-decoration: none;
+    align-self: center;
+}
+
+@media screen and (max-width: 768px) {
+    .article-where-to-go__about {
+        max-width: 94px;
+        padding-top: 16px;
+    }
+}
